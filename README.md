@@ -2,9 +2,9 @@ this is maven archetype for alto-standard-northbound-route
 
 You can create a northbound-route template following under command
 ```Bash
-mvn archetype:generate 
+mvn archetype:generate \
 -DarchetypeGroupId=alto-northbound \
--DarchetypeArtifactId=alto-northbound-archetype 
+-DarchetypeArtifactId=alto-northbound-archetype \
 -DarchetypeVersion=1.0.0-SNAPSHOT \
 -DarchetypeRepository=local 
 [-Dversion=0.2.0-SNAPSHOT][-DclassPrefix=<your className>]
