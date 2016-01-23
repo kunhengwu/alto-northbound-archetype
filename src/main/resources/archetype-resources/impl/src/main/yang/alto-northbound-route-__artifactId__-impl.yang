@@ -1,7 +1,7 @@
 module alto-northbound-route-${artifactId}-impl {
     yang-version 1;
-    namespace "urn:opendaylight:alto:core:northbound:route:${artifactId}:impl";
-    prefix "alto-northbound-router-${artifactId}-impl";
+    namespace "urn:opendaylight:alto:core:northbound:route:${artifactIdInYang}:impl";
+    prefix "alto-northbound-router-${artifactIdInYang}-impl";
 
     import alto-northbound { prefix alto-northbound; revision-date 2015-10-21; }
     import config { prefix config; revision-date 2013-04-05; }

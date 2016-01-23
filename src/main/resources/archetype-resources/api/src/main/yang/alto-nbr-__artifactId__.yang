@@ -1,7 +1,7 @@
 module alto-nbr-${artifactId} {
     yang-version 1;
-    namespace "urn:opendaylight:alto:core:northbound:route:${artifactId}";
-    prefix "alto-nbr-${artifactId}";
+    namespace "urn:opendaylight:alto:core:northbound:route:${artifactIdInYang}";
+    prefix "alto-nbr-${artifactIdInYang}";
 
     import config { prefix config; revision-date 2013-04-05; }
     import ietf-inet-types { prefix ietf-inet; revision-date 2013-07-15; }
@@ -11,7 +11,7 @@ module alto-nbr-${artifactId} {
     contact "alto-dev@lists.opendaylight.org";
 
     revision "2015-01-05" {
-        description "Initial revision of ${artifactId} model";
+        description "Initial revision of ${artifactIdInYang} model";
     }
 
     container "records" {
