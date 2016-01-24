@@ -5,7 +5,7 @@ You can create a northbound-route template following under command
 mvn archetype:generate \
 -DarchetypeGroupId=org.opendaylight.alto.archetypes \
 -DarchetypeArtifactId=alto-northbound-archetype \
--DarchetypeVersion=1.0.0-SNAPSHOT \
+-DarchetypeVersion=0.2.0-SNAPSHOT \
 -DarchetypeRepository=local 
 [-Dversion=0.2.0-SNAPSHOT][-DclassPrefix=<your className>]
 ```
