@@ -3,7 +3,7 @@ this is maven archetype for alto-standard-northbound-route
 You can create a northbound-route template following under command
 ```Bash
 mvn archetype:generate \
--DarchetypeGroupId=org.opendaylight.alto.archetype \
+-DarchetypeGroupId=org.opendaylight.alto.archetypes \
 -DarchetypeArtifactId=alto-northbound-archetype \
 -DarchetypeVersion=1.0.0-SNAPSHOT \
 -DarchetypeRepository=local 
